@@ -22,7 +22,7 @@
 
 
     let getdata = () => {
-        requestForFolder.open('get', 'assets/img/nameFile.txt', true);
+        requestForFolder.open('get', 'nameFile.txt', true);
         requestForFolder.onreadystatechange = showdata;
         requestForFolder.send(null);
     };
